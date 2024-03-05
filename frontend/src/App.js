@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import logo from './assets/logo/legal-pythia-v1.png'; /* Low resolution img or another text-only version*/
 
 function App() {
   const [documents, setDocuments] = useState([]);
@@ -31,8 +32,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">Legal Pythia</header>
-  
+      <header className="App-header">
+        <img src={logo} alt="logo" className="brand-logo"/>
+        {/*Legal-Pythia      */}
+      </header>
       <div className="upper-content">
         <div className="documents-section">
           <h2>Documents</h2>
