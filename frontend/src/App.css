@@ -5,6 +5,7 @@
   background-color: #000;
   color: white;
   height: 100vh;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .App-header {
@@ -23,8 +24,18 @@
   flex: 1; /* This will make both sections grow equally */
   margin: 10px;
   background: #333;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
+}
+
+.risk-section{
+  padding: 20px;
+}
+
+.documents-section{
+  border: 5px dashed #c6c6c6; /* 2px width, dashed style, black color */
+  border-width: 4px;
+  padding: 50px;
 }
 
 .word-summary-section {
@@ -41,14 +52,17 @@
   padding: 10px; /* Reduced padding because margins on sections add spacing */
 }
 
-button {
-  margin: 10px 0;
-  padding: 10px 20px;
+::-webkit-file-upload-button {
+  margin: 15px 3px;
+  padding: 100px 50px 0px;
   border: none;
   border-radius: 20px;
-  background-color: #444;
+  background-color: #000000;
   color: white;
   cursor: pointer;
+  background-image: url("../Images/upload_button.png"); /* Specify the image URL */
+  background-size: 8rem; /* Cover the button with the background image */
+  background-repeat: no-repeat;
 }
 
 button:hover {
