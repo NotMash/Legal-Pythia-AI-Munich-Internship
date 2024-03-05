@@ -2,37 +2,193 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.v13_2 {
+  width: 350px;
+  height: 437px;
+  /*background: url("../images/v13_2.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.v3_4 {
+  width: 350px;
+  height: 437px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.v3_6 {
+  width: 142px;
+  height: 324px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 182px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v3_7 {
+  width: 130px;
+  height: 44px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 28px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v3_8 {
+  width: 142px;
+  /*color: url("../images/v3_8.png");*/
+  position: absolute;
+  top: 28px;
+  left: 232px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_11 {
+  width: 112px;
+  height: 31px;
+  /*background: url("../images/v3_11.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v3_9 {
+  width: 148px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 52px;
+  left: 40px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_12 {
+  width: 103px;
+  height: 19px;
+  background: rgba(25,82,228,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 97px;
+  left: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v3_13 {
+  width: 103px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 101px;
+  left: 40px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.v3_15 {
+  width: 19px;
+  height: 19px;
+  background: rgba(121,209,90,1);
+  opacity: 1;
+  position: absolute;
+  top: 97px;
+  left: 188px;
+  border-radius: 50%;
+}
+.v3_14 {
+  width: 61px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 120px;
+  left: 97px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 5px;
+  opacity: 1;
+  text-align: center;
+}
+.v3_17 {
+  width: 19px;
+  height: 19px;
+  background: rgba(225,167,100,1);
+  opacity: 1;
+  position: absolute;
+  top: 124px;
+  left: 188px;
+  border-radius: 50%;
+}
+.v3_16 {
+  width: 19px;
+  height: 19px;
+  background: rgba(211,103,103,1);
+  opacity: 1;
+  position: absolute;
+  top: 151px;
+  left: 188px;
+  border-radius: 50%;
+}
+.v3_19 {
+  width: 99px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 97px;
+  left: 204px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v3_22 {
+  width: 99px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 153px;
+  left: 204px;
+  font-family: Inter;
+  /*font-weight: Regular;*/
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
 }
