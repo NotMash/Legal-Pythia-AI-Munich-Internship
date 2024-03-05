@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
   background-color: #000;
@@ -12,16 +14,31 @@
   font-weight: bold;
 }
 
-.content {
+.upper-content {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: space-between;
 }
 
 .documents-section, .risk-section {
+  flex: 1; /* This will make both sections grow equally */
+  margin: 10px;
   background: #333;
   padding: 20px;
   border-radius: 10px;
+}
+
+.word-summary-section {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  /* If you want the word-summary to take the full width */
+  margin-top: 20px; /* This will provide some space between the upper content and word summary */
+}
+
+/* Adjust the overall content padding to avoid doubling with the internal margins */
+.content {
+  padding: 10px; /* Reduced padding because margins on sections add spacing */
 }
 
 button {
@@ -39,9 +56,14 @@ button:hover {
 }
 
 .risk-item {
+  display: flex;
+  align-items: center;
   padding: 5px 0;
 }
 
-.risk-item:not(:last-child) {
-  margin-bottom: 10px;
+.risk-indicator {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
